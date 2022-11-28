@@ -1,9 +1,9 @@
 <?php
-// perulangan
-// while
-$i = 0;
-while ($i < 5) {
-    echo "Hai, Dunia!<br>";
+echo "Menggunakan perulangan While<br>";
+echo "<br>";
+$i = 1;
+while ($i <= 5) {
+    echo "Hai, ini baris ke-$i<br>";
     $i++;
 }
 ?>
