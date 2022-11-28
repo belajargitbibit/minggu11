@@ -1,9 +1,11 @@
 <?php
-echo "Menggunakan perulangan While<br>";
-echo "<br>";
-$i = 1;
-while ($i <= 5) {
-    echo "Hai, ini baris ke-$i<br>";
-    $i++;
-}
+// perulangan
+// do while
+echo "<h2>Menggunakan perulangan Do While</h2>";
+ $i= 10;
+ do {
+     echo "Hello World!<br>";
+     $i++;
+ } while ($i < 5); 
+// Script pada baris ke 5
 ?>
